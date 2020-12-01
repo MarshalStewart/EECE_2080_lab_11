@@ -1,4 +1,4 @@
-# Install script for directory: /home/mstewart/EECE_2080/EECE_2080_lab_11
+# Install script for directory: /home/mstewart/EECE_2080/Final
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mstewart/EECE_2080/EECE_2080_lab_11/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mstewart/EECE_2080/Final/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

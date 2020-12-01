@@ -5,7 +5,7 @@ set(CMAKE_BUILD_TYPE Debug)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
 
-add_library (applibrary Dictionary.cpp) 
+add_library (applibrary ADT.cpp) 
 
 # Link runTests with what we want to test and the GTest and pthread library
 add_executable(runTests tests.cpp)

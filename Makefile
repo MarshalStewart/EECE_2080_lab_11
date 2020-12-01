@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mstewart/EECE_2080/EECE_2080_lab_11
+CMAKE_SOURCE_DIR = /home/mstewart/EECE_2080/Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mstewart/EECE_2080/EECE_2080_lab_11
+CMAKE_BINARY_DIR = /home/mstewart/EECE_2080/Final
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstewart/EECE_2080/EECE_2080_lab_11/CMakeFiles /home/mstewart/EECE_2080/EECE_2080_lab_11/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstewart/EECE_2080/Final/CMakeFiles /home/mstewart/EECE_2080/Final/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstewart/EECE_2080/EECE_2080_lab_11/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/mstewart/EECE_2080/Final/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,32 +149,32 @@ applibrary/fast:
 	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/build
 .PHONY : applibrary/fast
 
-Dictionary.o: Dictionary.cpp.o
+ADT.o: ADT.cpp.o
 
-.PHONY : Dictionary.o
+.PHONY : ADT.o
 
 # target to build an object file
-Dictionary.cpp.o:
-	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/Dictionary.cpp.o
-.PHONY : Dictionary.cpp.o
+ADT.cpp.o:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ADT.cpp.o
+.PHONY : ADT.cpp.o
 
-Dictionary.i: Dictionary.cpp.i
+ADT.i: ADT.cpp.i
 
-.PHONY : Dictionary.i
+.PHONY : ADT.i
 
 # target to preprocess a source file
-Dictionary.cpp.i:
-	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/Dictionary.cpp.i
-.PHONY : Dictionary.cpp.i
+ADT.cpp.i:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ADT.cpp.i
+.PHONY : ADT.cpp.i
 
-Dictionary.s: Dictionary.cpp.s
+ADT.s: ADT.cpp.s
 
-.PHONY : Dictionary.s
+.PHONY : ADT.s
 
 # target to generate assembly for a file
-Dictionary.cpp.s:
-	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/Dictionary.cpp.s
-.PHONY : Dictionary.cpp.s
+ADT.cpp.s:
+	$(MAKE) -f CMakeFiles/applibrary.dir/build.make CMakeFiles/applibrary.dir/ADT.cpp.s
+.PHONY : ADT.cpp.s
 
 Main.o: Main.cpp.o
 
@@ -241,9 +241,9 @@ help:
 	@echo "... runMain"
 	@echo "... runTests"
 	@echo "... applibrary"
-	@echo "... Dictionary.o"
-	@echo "... Dictionary.i"
-	@echo "... Dictionary.s"
+	@echo "... ADT.o"
+	@echo "... ADT.i"
+	@echo "... ADT.s"
 	@echo "... Main.o"
 	@echo "... Main.i"
 	@echo "... Main.s"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/applibrary.dir/Dictionary.cpp.o"
+  "CMakeFiles/applibrary.dir/ADT.cpp.o"
   "libapplibrary.a"
   "libapplibrary.pdb"
 )
